@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.one h1 {
+    background-color: #D18C1D;
+    padding: 10px;
+    border: 1px solid red;
+}
+.article_one p {
+    background-color: #D1D631;
+    width: 600px;
+    height: 400px;
+    border: 2px dotted black;
+}
+.article_one img {
+    border-radius: 20px;
+}
+.article_two div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+footer a {
+    background-color: #A1A1A1;
+    border-bottom: 3px dashed blue
+}
