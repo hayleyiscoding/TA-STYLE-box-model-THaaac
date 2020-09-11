@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Custom Styles */
+
+body {
+    color: white;
+}
+
+.row1 .one {
+    background-color: #FE5349;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.row1 .two {
+    background-color: #0C8871;
+    width: 200px;
+    height:200px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.row1 .three {
+    background-color: #B600FF;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    padding: 10px;
+}
+.row2 .four {
+    background-color: #0DC1FD;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    padding: 10px;
+}
+.row2 .five {
+    background-color: #09CA80;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.row2 .six {
+    background-color: #02F361;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    padding: 10px;
+}
+.row3 .seven {
+    background-color: #E8FF1E;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    padding: 10px;
+}
+.row3 .eight {
+    background-color: #FE7406;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    padding: 10px;
+}
+.row3 .nine {
+    background-color: #E52F2E;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
